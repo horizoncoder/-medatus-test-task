@@ -1,15 +1,16 @@
 import {
-    Body,
-    Controller,
-    Post,
-    UseGuards,
-    Request,
-    HttpCode,
-    UsePipes,
-    ValidationPipe,
-    BadRequestException,
-    HttpException,
-    HttpStatus, Session,
+  Body,
+  Controller,
+  Post,
+  UseGuards,
+  Request,
+  HttpCode,
+  UsePipes,
+  ValidationPipe,
+  BadRequestException,
+  HttpException,
+  HttpStatus,
+  Session,
 } from '@nestjs/common';
 
 import * as bcrypt from 'bcrypt';
